@@ -59,8 +59,8 @@
     color: #000000 !important; 
   }
   body.dark-mode .card {
-    background-color: #343a40 !important; /* Override Bootstrap card background color */
-    color: #fff !important; /* Override Bootstrap card text color */
+    background-color: #343a40 !important; 
+    color: #fff !important; 
     border-style: groove;
   }
   .testimonials {
@@ -100,26 +100,26 @@
 
 .flex-container {
     display: flex;
-    justify-content: space-between; /* Distribute space between sections */
+    justify-content: space-between; 
 }
 
 .dark-mode .testimonials {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* Dark text color */
+    background-color: #333; 
+    color: #fff;
 }
 
 .dark-mode .testimonials h2 {
-    color: #00a0ff; /* Dark heading color */
+    color: #00a0ff;
 }
 
 .dark-mode .testimonials .testimonial {
-    background-color: #444; /* Dark testimonial background color */
-    border: 1px solid #666; /* Dark border color */
+    background-color: #444; 
+    border: 1px solid #666; 
 }
-/* edit 1*/
+
 .contact,
 .faq {
-    width: 48%; /* Adjust the width as needed, leaving some space for margins */
+    width: 48%; 
 }
 
 .contact {
@@ -206,7 +206,7 @@
     padding: 15px;
 }
 html, body {
-    background-color: #f9f9f9; /* Set the background color to match your section background color */
+    background-color: #f9f9f9; 
 }
 
 body {
@@ -220,13 +220,13 @@ section {
 }
 .dark-mode .contact,
 .dark-mode .faq {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* Dark text color */
+    background-color: #333; 
+    color: #fff; 
 }
 
 .dark-mode .contact h2,
 .dark-mode .faq h2 {
-    color: #00a0ff; /* Dark heading color */
+    color: #00a0ff; 
 }
 
 .dark-mode .contact .container,
@@ -239,79 +239,79 @@ section {
 .dark-mode .contact form textarea,
 .dark-mode .contact form button,
 .dark-mode .faq .accordion-button {
-    background-color: #007bff; /* Dark background color for buttons */
-    color: #fff; /* Dark text color for buttons */
+    background-color: #007bff;
+    color: #fff; 
 }
 
 .dark-mode .contact form button:hover,
 .dark-mode .faq .accordion-button:hover {
-    background-color: #0056b3; /* Dark background color on hover for buttons */
+    background-color: #0056b3;
 }
 .dark-mode body {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* Dark text color */
+    background-color: #333;
+    color: #fff;
 }
-/* Add these styles to your existing CSS file or in the head section of your HTML */
+
 
 .newsletter {
-    background-color: #fff; /* Light background color for the newsletter section */
-    color: #333; /* Light text color for the newsletter section */
+    background-color: #fff; 
+    color: #333; 
     padding: 50px 0;
 }
 
 .newsletter h2,
 .newsletter p,
 .newsletter label {
-    color: #333; /* Light text color for headings, paragraphs, and labels */
+    color: #333; 
 }
 
 .newsletter input {
-    color: #333; /* Light text color for input */
+    color: #333; 
 }
 
 .newsletter button {
-    background-color: #fff; /* Light background color for the subscribe button */
-    color: #007bff; /* Light text color for the subscribe button */
+    background-color: #fff;
+    color: #007bff;
     transition: background-color 0.3s;
 }
 .newsletter button:hover {
-    background-color: #0056b3; /* Set the background color on hover for the subscribe button */
+    background-color: #0056b3; 
 }
-/* Dark Mode Styles */
+
 .dark-mode .newsletter {
-    background-color: #333; /* Dark background color for the newsletter section */
-    color: #fff; /* Dark text color for the newsletter section */
+    background-color: #333; 
+    color: #fff;
 }
 
 .dark-mode .newsletter h2,
 .dark-mode .newsletter p,
 .dark-mode .newsletter label {
-    color: #fff; /* Dark text color for headings, paragraphs, and labels */
+    color: #fff; 
 }
 
 .dark-mode .newsletter input {
-    color: #fff; /* Dark text color for input */
+    color: #fff; 
 }
 
 .dark-mode .newsletter button {
-    background-color: #fff; /* Dark background color for the subscribe button */
-    color: #007bff; /* Dark text color for the subscribe button */
+    background-color: #fff; 
+    color: #007bff;
 }
 
 .dark-mode .newsletter button:hover {
-    background-color: #eee; /* Dark background color on hover for the subscribe button */
+    background-color: #eee; 
 }
 .dark-mode-toggle {
-    width: 24px; /* Adjust the width of the image */
-    height: 24px; /* Adjust the height of the image */
+    width: 24px; 
+    height: 24px;
     cursor: pointer;
     transition: filter 0.3s;
 }
 
 .dark-mode .dark-mode-toggle {
-    filter: invert(100%); /* Invert the colors in dark mode */
+    filter: invert(100%); 
 }
 
 .dark-mode-toggle:hover {
-    filter: brightness(85%); /* Reduce brightness on hover */
+    filter: brightness(85%); 
 }
